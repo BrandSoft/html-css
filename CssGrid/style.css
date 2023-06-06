@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Bruno Ace SC', cursive;
+}
+
+span{
+    color: white;
+}
+
+
+
+
+
+.container-ul{
+    display: flex;
+    gap: 25px;
+}
+
+.container-ul li{
+    list-style: none;
+}
+
+.container-ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(255, 255, 255); 
+    padding: 10px;   
+}
+
+
+.container-header{
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-area: header;
+}
+
+
+.container-principal{
+    background-color: rgb(238, 255, 199);
+    grid-area: principal;
+    border-right: 1px solid rgba(41, 41, 41, 0.322);
+    display: flex;
+}
+
+.container-lateral{
+    background-color: rgb(238, 255, 199);
+    grid-area: lateral;
+}
+.container-footer{
+    background-color: rgb(14, 14, 14);
+    grid-area: footer;
+}
+
+
+.container-body{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'principal principal lateral'
+    'footer footer footer';
+    grid-template-rows: 4vw 150vw 20vw;
+}
+
+.quadrado1{
+    width: 20vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 25px;       
+
+}
+.quadrado2{
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(185, 255, 95);
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 25px;       
+}
+
+.container-ul li a:hover{
+  background-color: rgb(185, 255, 95);  
+  color: black
+}
+
+
+
+

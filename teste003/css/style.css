@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background: rgb(27, 27, 27);
+    border: 1px solid red;
+    height: 1500px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+    margin-left: 30px;
+}
+
+.logo{
+    font-family: 'Bruno Ace SC', cursive;
+    color: aqua;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.menu{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    margin-top: 5px;
+}
+
+.games{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 1px;  
+
+}
+
+.snes{
+    background: rgb(170, 57, 57);
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;    
+    box-shadow: 0px 5px rgba(194, 233, 21, 0.459); 
+}
+
+.mega{
+    background-image: url(img/mega.jpeg);
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px rgba(194, 233, 21, 0.459);
+}
+
+.master{
+    background-image: url(img/master.jpg);
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px rgba(194, 233, 21, 0.459);
+}
+
+.arcade{
+    background: blue;
+    background-image: url(img/arcade.png);
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;    
+    box-shadow: 0px 5px rgba(194, 233, 21, 0.459);
+    float: left;
+}
+
+.call{
+    display: inline-block;
+    position: fixed;
+    right: 101px;
+    color: white;
+    background: cyan;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    bottom: 50px;
+}
+
+a:hover{
+    opacity: 0.3;
+}
+
+.logo-netflix{
+height: 40px;
+}
+
+.logo-netflix:hover{
+    opacity: 0.4;
+}
+
+@media(max-width: 700px){
+    .menu{
+        width: 400px;
+    }
+}
+@media(max-width: 590px){
+    .menu{
+        width: 100px;
+    }
+}
+
+@media(max-width: 900px){
+    .games{
+        width: 250px;
+        display: inline;  
+        position: absolute;
+        right: 250px;
+    }
+    .snes{
+        margin-bottom: 20px;
+    }
+    .mega{
+        margin-bottom: 20px;
+    }
+    .master{
+        margin-bottom: 20px;
+    }
+    .arcade{
+        margin-bottom: 20px;
+    }
+
+}

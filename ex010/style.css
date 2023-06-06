@@ -1,0 +1,25 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    text-decoration: none;
+    background: -o-linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85,61% );
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}

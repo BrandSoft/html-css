@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img.principal{
+    width: 100%;
+}
+
+img.nome{
+position: relative;
+width: 500px;
+left: 80px;
+top: -650px;
+}
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+header{
+    display: flex;
+    position: absolute;
+    left: 160px;
+    right: 20px;
+    width: 700px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+span{
+    position: absolute;
+    color: red;
+    margin-top: 20px;    
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.dis.img{
+    display: flex;
+    justify-content: space-between;
+}

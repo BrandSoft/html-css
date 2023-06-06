@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+body{
+    background: rgb(43, 43, 43);
+}
+
+.logo{
+    display: inline-block;
+    color: white;
+    background: rgb(104, 104, 221);
+    font-family: 'Bruno Ace SC', cursive;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    position: absolute;
+    left: 100px;
+}
+
+.menu{
+    display: inline-block;
+    border: 1px solid rgb(104, 104, 221);
+    position: absolute;
+    right: 135px;    
+}
+
+a.menu-lista{
+    text-decoration: none;
+    color: white;
+    margin: 30px;    
+}
+
+.div-mae{
+    display: inline-block;
+    max-width: 1100px;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    height: 200px;    
+}
+
+.amarelo{
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    background: yellow;   
+    margin: 0px;
+
+}
+
+.azul{
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    background: rgb(104, 104, 221);
+    margin: 0px;
+    
+}
+
+.verde{
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    background-image: url(img/DESMATAMENTO\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    margin: 0px;
+}
+
+.div-mae2{
+    display: inline-block;
+    max-width: 1100px;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 370px;
+    height: 200px;  
+}
+
+.div-mae3{
+    display: inline-block;
+    max-width: 1100px;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 590px;
+    height: 200px;  
+}
+
+.amarelo:hover{
+    background: rgb(104, 104, 221);
+    border: 1px white dashed;
+}
+
+.logo:hover{
+    background: white;
+    color: rgb(104, 104, 221);
+}

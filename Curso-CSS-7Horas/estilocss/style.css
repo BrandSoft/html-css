@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background: rgb(66, 66, 66);
+    background-image: url("../img/fundo.jpg");
+    background-size: cover;
+    opacity: unset;
+}
+
+
+li{
+    font-size: 10px;
+    display: inline;
+    margin: 15px;
+    float: inline-start;    
+}
+
+a.teste{
+    padding: 8px;
+    color: rgb(221, 221, 221);   
+    font-family: Arial, Helvetica, sans-serif, bold;
+    opacity: 0.7;
+}
+
+a.teste:hover{
+    opacity: 1;
+    background:black;
+    color: white;
+    border-radius: 10px;    
+}
+
+.back{
+    width: 350px;
+    height: 300px;
+    background-color: aqua;
+    background-image:url("../img/fundo.jpg");
+    background-size: contain;
+    font-size: 14px;
+    color: whitesmoke;
+    background-position: center;
+}
+
+
+.divbotoes{
+    display: flexbox;
+    margin-left: 10px;
+
+}
+
+.botao1{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    background: green;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+}
+
+.botao1:hover{
+  opacity: 0.7;
+  padding: 1.5%;
+
+}
+
+
+
+.botao2{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    background: red;
+    border-top: 3px solid rgb(245, 112, 112);
+    border-bottom: 5px solid rgb(136, 0, 0);
+    border-right: 3px solid rgb(245, 112, 112);
+    border-left: 5px solid rgb(136, 0, 0);
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.botao2:hover{
+    opacity: 0.7;
+    padding: 1.5%;    
+}
+
+.botao3{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    background: red;
+    border-top: 3px solid rgb(245, 112, 112);
+    border-bottom: 5px solid rgb(136, 0, 0);
+    border-right: 3px solid rgb(245, 112, 112);
+    border-left: 5px solid rgb(136, 0, 0);
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.botao3:hover{
+    opacity: 0.7;
+    padding: 1.5%;
+}
+
+.select{
+    padding: 4px;
+    margin: 5px;
+}
+
+.select:hover{
+    border-left: 5px solid red;
+    margin: 0px;
+}
