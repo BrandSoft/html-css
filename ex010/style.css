@@ -23,3 +23,26 @@ body{
     display: flex;
     gap: 32px;
 }
+
+.elemento{
+    width: 160px;
+    height: 160px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#elemento-1{
+    background-image: linear-gradient(to left, red ,yellow);
+}
+
+#elemento-2{
+    background-image: linear-gradient(to top, rgb(250, 0, 0) ,rgb(255, 255, 255), blue );
+}
+
