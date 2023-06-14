@@ -43,7 +43,7 @@ a{
 }
 
 .snes{
-    background: rgb(170, 57, 57);
+    background-image: url(img/arcade.png);
     border: 1px solid white;
     width: 200px;
     height: 200px;    
