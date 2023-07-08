@@ -1,0 +1,35 @@
+body{
+background-image: url(img/image-hero.jpg);
+}
+
+ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Josefin Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.container-ul{
+    display: flex;
+    gap: 40px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.logo{
+    width: 180px;
+    height: 30px;
+}
+
+h1{
+    font-family: 'Josefin Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

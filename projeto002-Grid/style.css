@@ -1,0 +1,41 @@
+
+
+
+.grid-wrapper{
+display: grid;
+gap: 10px;
+width: 80vw;
+margin: 0 auto;
+
+}
+
+header{
+    background-color:coral;
+    height: 10vh;
+    grid-column: 1/5;
+}
+
+nav{
+    background-color: cadetblue;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    height: auto;
+}
+
+section{
+    background-color:gold;
+    grid-column: 2/5;
+    height: 20vh;
+}
+
+article{
+    background-color:chartreuse;
+    height: 20vh;   
+}
+
+footer{
+    background-color:mediumorchid;
+    grid-column: 1/5;
+    height: 20vh;
+
+}
