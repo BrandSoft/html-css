@@ -34,7 +34,7 @@ header footer p{
     font-size: 0.7rem;
 }
 
-p{
+main p{
     font-size: 0.8rem;
     text-align: left;
     margin-top: 0;
@@ -84,7 +84,6 @@ h2{
 }
 
 .div-recent{
-    margin-top: 40px;
     padding: 50px 40px;
     margin-left: auto;
     width: 65vw;
