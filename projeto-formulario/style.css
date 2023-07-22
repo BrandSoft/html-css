@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+#field{
+    box-shadow: 5px 5px 3px rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: #ccc;
+    background-image: linear-gradient(to bottom, rgb(174, 174, 174), blue);
+    display: grid;
+}
+
+.form-login{
+    width: 250px;
+    margin: 50px auto 0;
+}
+.btn{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#user{
+    margin-bottom: 20px;
+}
+
+#user:focus, #pass:focus {
+    background-color: #e2ffad;
+}
+
+#mensagem-id{
+    margin-top: 40px;
+    width: 30vw;
+    margin: 40px auto;
+    display: grid;
+}
+
+textarea{
+    resize: none;
+}
+
+.div-transition{
+    width: 5vw;
+    height: 50px;
+    background-color: rgb(37, 231, 27);
+    transition: width 1s cubic-bezier(1, 0.7, 0.4, 1);
+    margin-bottom: 50px;
+}
+
+.div-transition:hover{
+    width: 98vw;
+    height: 80px;
+    border: 1px solid black;
+}

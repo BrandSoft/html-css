@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(204, 204, 204);
+    font-family: sans-serif;
+    color: black;
+}
+
+
+table{
+    border: 1px solid white;
+    margin: 0px auto;
+}
+
+th{
+    border: 1px solid white;
+    background-color: rgb(116, 116, 116);
+    color: black;
+}
+
+td{
+    border: 1px solid white;
+    padding: 0 40px;
+}

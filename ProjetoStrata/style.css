@@ -90,7 +90,7 @@ h2{
     height: auto;
     display: grid;
     border-bottom:2px solid #ccc;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
 }
 
 article img{
@@ -201,7 +201,7 @@ input:hover, textarea:hover{
 }
 
 th{
-    background-color: #ccc;
+    background-color: #3f3f3f;
 }
 
 tr{
@@ -210,8 +210,30 @@ tr{
 
 tr, th, td{
     border-radius: 5px;
+    color: #3f3f3f;
+    text-align: center;
+}
+
+tr td:nth-child(1){
+    text-align: left;   
+    padding-left: 10px; 
+}
+
+
+th{
+    color: white;
 }
 
 h5{
     text-align: center;
+}
+
+.um:nth-child(2n){
+    background-color: blue;
+    color: #e22421;
+}
+
+
+tbody tr:nth-child(2n){
+    background-color: #c4c4c4;
 }

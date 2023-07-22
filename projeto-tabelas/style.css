@@ -1,0 +1,40 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+
+th{
+    border: 1px solid black;
+    padding: 8px;    
+    background-color: #aeaeae;
+
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;   
+    background-color: #e8e8e8;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+tfoot tr td{
+    height: 8px;
+    background-color: rgb(4, 4, 4);
+    color: rgb(138, 255, 20);
+    font-size: 8px;
+    padding: 0;
+}
+
+td a{
+    text-decoration: none;
+    color:white;
+    background-color: green;
+    border-radius: 30px;
+    padding:4px 10px;
+}
